@@ -1,0 +1,145 @@
+body {
+  background-color: green;
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+}
+
+/*lado esquerdo
+*/
+.menu {
+  background-color: #38bdf8;
+  flex: 1;
+  color: #f4f4f5;
+  padding-left: 3vw;
+}
+
+/*
+lado direito
+*/
+
+.container {
+  background-color: #e2e8f0;
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+}
+
+/*
+topo do lado direito
+*/
+.hero {
+  padding: 2vh;
+  padding-right: 3vw;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+}
+input {
+  background-color: #e2e8f0;
+  border-radius: 4px;
+  width: 30vw;
+}
+.searchBar button {
+  border-style: none;
+  background-color: #fafafa;
+}
+.searchBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchBarEsquerda {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.heroFundo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.heroFundoEsquerda {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+}
+.heroFundoDireita {
+}
+
+.heroFundo button {
+  font-weight: bold;
+  border-style: none;
+  border-radius: 4px;
+  background-color: #7dd3fc;
+}
+
+.heroFundo button:hover {
+  background-color: yellow;
+}
+.hero img {
+  height: 4vh;
+}
+
+.titles {
+  height: 2vh;
+  font-weight: bold;
+  background-color: #fafafa;
+  display: flex;
+  gap: 10vw;
+  justify-content: space-around;
+}
+
+/*
+quadro de projetos e anuncios
+*/
+
+.board {
+  font-size: 2vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  flex: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects {
+  flex: 5;
+
+  display: grid;
+  grid-template-columns: 20vw 20vw;
+  grid-template-rows: 20vh 20vh 20vh;
+  gap: 20px;
+
+  justify-content: space-around;
+}
+
+.projects div {
+  padding: 5px;
+  background-color: #fafafa;
+  border-radius: 4px;
+  border-left: solid 5px #eab308;
+
+  overflow: hidden;
+}
+.updates {
+  padding-right: 3vw;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+
+  gap: 5vh;
+}
+.updates div {
+  background-color: #fafafa;
+  border-radius: 4px;
+  border-left: solid 5px #eab308;
+}
+.updates h4 {
+  padding-bottom: 50px;
+  font-size: large;
+}
